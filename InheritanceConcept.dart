@@ -5,7 +5,8 @@ class Animal {
   void eat() {
     print(eatType);
   }
-  void colorShow(){
+
+  void colorShow() {
     print(color);
   }
 }
@@ -22,16 +23,16 @@ class Cat extends Animal {
   }
 }
 
-void main(){
-  var dog=new Dog();
-  dog.color="black";
-  dog.eatType="Chicken";
+void main() {
+  var dog = new Dog();
+  dog.color = "black";
+  dog.eatType = "Chicken";
   dog.eat();
   dog.colorShow();
 
-  var cat=new Cat();
-  cat.color="white";
-  cat.eatType="fish";
+  var cat = new Cat();
+  cat.color = "white";
+  cat.eatType = "fish";
   cat.eat();
   cat.colorShow();
 }
